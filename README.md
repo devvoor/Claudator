@@ -1,4 +1,9 @@
-# $Claudator (a.k.a. ClaudeValid)
+# $Claudator 
+
+https://x.com/claudatorsolana
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fa890909-e87a-4af3-9585-bf50b79c0e5a" />
+
 
 **Pitch**
 
