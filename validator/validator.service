@@ -1,0 +1,13 @@
+[Unit]
+Description=$Claudator Solana validator
+After=network.target
+
+[Service]
+User=solana
+# EnvironmentFile=/etc/default/solana
+ExecStart=/usr/local/bin/solana-validator --identity /var/lib/solana/identity.json --vote-account $GEgnNd6AyNshufepHS2HVXhDSRKwhjqgAYvWSnKCyQWf --entrypoint entrypoint.mainnet-beta.solana.com:8001 --rpc-port 8899
+Restart=on-failure
+LimitNOFILE=1000000
+
+[Install]
+WantedBy=multi-user.target
